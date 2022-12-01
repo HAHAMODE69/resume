@@ -33,10 +33,12 @@ body{
     border-radius: 20px;
 } */
 .info-text p{
-    /* font-style: italic; */
-    font-weight: bold;
+    
+      font-style: italic;
+    /* font-weight:100; */
     padding: 5px;
     margin: 5px;
+    color: #86898f;
     /* padding: 20px; */
 }
 
