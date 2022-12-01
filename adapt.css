@@ -1,0 +1,54 @@
+@media (max-width:715px)
+{
+    .info{
+        display: block;
+        text-align: center;
+    }
+
+}
+@media (max-width:650px)
+{
+    .form-row{
+        display: block;
+    }
+
+    .form-row .conntext{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:483px)
+{
+    .table th:nth-child(1) {
+        padding-right: 10px;
+        padding-bottom:0px;
+     }
+    .table th:nth-child(2) {
+       padding-right: 10px;
+       padding-bottom:0px;
+    }
+    .table th:nth-child(3) {
+        padding-right: 0px;
+        padding-bottom:0px;
+     }
+
+}
+@media(max-width:398px)
+{
+    .avatar{
+        width: 290px;
+        margin-left: 0px;
+        text-align: left;
+    }
+    .info{
+        /* position: relative; */
+        text-align: left;
+        
+        
+    }
+    .info-text{
+        text-align: left;
+        margin-left: 0;
+    }
+}

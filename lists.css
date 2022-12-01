@@ -1,0 +1,42 @@
+.list{
+padding: 0;
+margin:0;
+    list-style:none;}
+
+.list li{
+    margin-bottom:8px;
+}
+
+.table{
+    padding: 0;
+}
+
+.table td{
+
+    /* text-align: center; */
+    padding-bottom: 10px;
+    list-style:none;
+    /* margin-right: 1000px; */
+
+}
+.table th:nth-child(1) {
+    padding-right: 40px;
+    padding-bottom:5px;
+ }
+.table th:nth-child(2) {
+   padding-right: 100px;
+   padding-bottom:5px;
+}
+.table th:nth-child(3) {
+    padding-right: 100px;
+    padding-bottom:5px;
+ }
+.table td:hover{
+    color:chocolate;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.conntext{
+    padding-bottom: 20px;
+}

@@ -1,0 +1,59 @@
+.info{
+    display: flex;
+}
+
+.info-text{
+    width: 100%;
+    border: 0px solid black;
+    /* background:#f4f4f4; */
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    margin-left: 20px;
+    
+}
+
+.form h2{
+    text-align: center;
+}
+
+.form-row{
+
+    margin-bottom: 20px;
+    display: flex;
+
+}
+.form-row .conntext{
+    /* display: inline-block; */ 
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50% - 20px) */
+}
+
+.form-row .conntext:last-child{
+    margin-right: 0;
+}
+
+
+
+
+.conntext label{
+
+    display: block;
+    font-size: 14;
+    color: rgb(74, 65, 65);
+
+}
+.conntext input,.conntext textarea{
+    width: 95%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(20, 16, 16);
+    color: black;
+    padding:15px 0 10px ;
+    outline: none;
+    font-family: inherit;
+
+}
+
